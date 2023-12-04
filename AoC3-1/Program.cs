@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-string[] input = File.ReadAllLines("inputDok.txt");
+string[] input = File.ReadAllLines("input.txt");
 char[,] schematicMap = new char[input.Length, input[0].Length];
 var lenght = input[0].Length;
 List<Number> numbers = new List<Number>();
